@@ -4,36 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Сайт - Визитка</title>
 </head>
 <body>
-<img src="myface.jpg" alt="HereIsMyFace" width="150">
+    <div class="about">
+    <img src="myface.jpg" alt="HereIsMyFace" class="avatar">
+    <div class="aboutText">
 <h2>Всем привет! Это мой сайт-визитка. пытаюсь создать его,
     не смотря никаких роликов, по памяти. <i>Однако</i>,
-    позволяю использовать себе шпаркалку - <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/A" target="_blank">
+    позволяю использовать себе шпаргалку - <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/A" target="_blank">
         Сайт MDN</a>
-</h2>
-<a href="portfolio.html">Портфолио</a>
-<hr size="2" width="660" noshade="2">
-<p>Стоит, все же, больше рассказать о себе. Уже очень много лет занимаюсь розничной торговлей. А именно,
+</h2></div>
+</div> 
+<div class="textAndTable">
+<div class="bigBoxText">
+    Стоит, все же, больше рассказать о себе. Уже очень много лет занимаюсь розничной торговлей. А именно,
     работаю продавцом. На разных ролях, но суть всегда одна - продавец. Работал в совершенно разных компаниях,
     магазинах. Должность всегда звучала по разному. Даже в рамках одной компании, при этом официально, все сводилось 
     к одному - "Продавец-Консультант".
-</p>
-<p>Сейчас же я решил кардинально изменить свою жизнь. Сменить надоевшую рутину, этот бесконечный день сурка,
+    Сейчас же я решил кардинально изменить свою жизнь. Сменить надоевшую рутину, этот бесконечный день сурка,
     на что-то, по-настоящему, интересное. И конечно же, прибыльное. На IT.
-</p>
-<p>Если говорить открыто, то я даже не представляю, что имело больший вес при выборе IT, как направления моего развития.
+    Если говорить открыто, то я даже не представляю, что имело больший вес при выборе IT, как направления моего развития.
     Были ли это деньги? Да. Было ли желание привнести нечто новое в свою жизнь? Да. Или это то, что называется
     любопытством? 
-</p>
-<p>За чем же я все-таки гонюсь? Чего хочу достичь на этом пути? Точного ответа тут нет. Какие бы цели я себе не
+    За чем же я все-таки гонюсь? Чего хочу достичь на этом пути? Точного ответа тут нет. Какие бы цели я себе не
     поставил, я прекрасно понимаю, что они, всего лишь, промежуточные вехи на пути, что я выбрал. Достигнув одной
     цели, я направлюсь к другой. Не думаю, что есть какая-то конечная точка в погоне за этими знаниями.
-</p>
-<hr size="2" width="660" noshade="2">
-<p align="center"><b>Вот последние три места работы</b></p>
-<table align="center" border="2">
+</div>
+<b>Вот последние три места работы</b>
+<div class="tableJob">
+<table align="center">
     <tr>
         <th scope="col">Компания</th>
         <th scope="col">Должность</th>
@@ -55,23 +56,22 @@
         <td>2020-По настоящее время</td>
     </tr>
 </table>
-<hr size="2" width="660" noshade="2">
-<p align="left"><b>Вот некоторые из моих социальных сетей:</b></p>
-<a href="https://vk.com/godishigh"><img src="vkLogo.png" width="55"></a>
-<a href="https://github.com/MshWumno"><img src="gitHubLogo.webp" width="55"></a>
-<hr size="2" width="660" noshade="2">
-<p>А тут можно отправить мне небольшое сообщение:</p>
+</div>
+</div>
+<div class="lowerBox">
+<p align="center"><b>Вот некоторые из моих социальных сетей:</b></p>
+<div class="social">
+    <a href="https://vk.com/godishigh"><img src="vkLogo.png" width="55"></a>
+    <a href="https://github.com/MshWumno"><img src="gitHubLogo.png" width="55"></a>
+</div>
+<div class="submitBox">
 <form action="/">
-    <label for="name">Ваше имя:</label>
     <input type="text" id="name" placeholder="Ваше имя:...">
-    <br>
-    <label for="email">Ваш email:</label>
     <input type="email" id="email" placeholder="Введите email:...">
-    <br>
-    <textarea id="text" cols="60" rows="5"></textarea>
-    <br>
-    <input type="submit" value="Отправить">
-    <br>
-</form>
+    <textarea id="text" cols="60" rows="5" placeholder="Пиши..."></textarea>
+    <input type="submit" value="Отправить" id="submit">
+    </form>
+</div>
+</div>  
 </body>
 </html>

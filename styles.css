@@ -1,0 +1,85 @@
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(241, 226, 206, 0.507);
+    margin: 30px;
+}
+.about {
+    display: flex;
+    background-color: rgba(70, 218, 57, 0.13);
+    border-radius: 10px 10px;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    font-size: small;
+}
+.bigBoxText {
+    margin-bottom: 5px;
+}
+.textAndTable {
+    background-color: rgba(248, 226, 98, 0.301);
+    text-align: center;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.avatar {
+    border-radius:10px 10px;
+    width: 150px;
+}
+a:hover {
+    text-decoration: solid;
+}
+.tableJob {
+    border-radius: 10px;
+    margin: 10px;
+    background: rgba(70, 218, 57, 0.13);  
+}
+.lowerBox  {
+    background-color: rgba(70, 218, 57, 0.13);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.submitBox {
+        margin: 10px;
+        padding: 20px;
+        width: 200px;
+        display: flex;
+}
+#name {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 10px 2px rgb(123, 3, 179);
+}
+#email {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 10px 2px rgb(123, 3, 179);
+}
+#text {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 10px 2px rgb(123, 3, 179);
+    resize: vertical;
+}
+#submit {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 10px 2px rgb(123, 3, 179);
+    
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
